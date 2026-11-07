@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>하남드리머즈 진로 멘토링</title>
+<meta name="description" content="관심 분야, 학과, 직업 정보를 모아 두고 탐색하는 진로 노트">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
+<style>
+/* Layout: one calm column — title, short intro, three doors into the archive. */
+:root {
+  --bg: #f3f6f4;
+  --surface: #ffffff;
+  --ink: #17251f;
+  --muted: #5a6b63;
+  --line: #d6e0da;
+  --accent: #1f7a5c;
+  --accent-soft: #e2f0e9;
+  --f-display: "Gowun Batang", "Nanum Myeongjo", "Batang", serif;
+  --f-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111915; --surface: #18221d; --ink: #e5ede8; --muted: #9db0a6;
+    --line: #2a3a32; --accent: #5fc79f; --accent-soft: #1d3329;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--f-body);
+  font-size: 16px;
+  line-height: 1.7;
+  word-break: keep-all;
+}
+.wrap {
+  max-width: 640px;
+  margin: 0 auto;
+  padding-left: max(20px, env(safe-area-inset-left, 0px));
+  padding-right: max(20px, env(safe-area-inset-right, 0px));
+  padding-block: calc(56px + env(safe-area-inset-top, 0px)) calc(48px + env(safe-area-inset-bottom, 0px));
+  display: grid;
+  gap: 40px;
+}
+header { display: grid; gap: 14px; }
+.eyebrow {
+  font-size: 13px; font-weight: 500;
+  letter-spacing: .08em;
+  color: var(--accent);
+}
+h1 {
+  font-family: var(--f-display);
+  font-weight: 700;
+  font-size: clamp(34px, 9vw, 52px);
+  line-height: 1.2;
+  margin: 0;
+  text-wrap: balance;
+}
+.lede { margin: 0; color: var(--muted); font-size: 17px; max-width: 32em; }
+
+.doors { display: grid; gap: 12px; }
+.door {
+  display: grid;
+  grid-template-columns: 44px 1fr auto;
+  gap: 16px;
+  align-items: center;
+  padding: 18px 20px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+.door .ico {
+  width: 44px; height: 44px; border-radius: 12px;
+  background: var(--accent-soft); color: var(--accent);
+  display: grid; place-items: center;
+}
+.door .ico svg { width: 22px; height: 22px; }
+.door h2 { margin: 0; font-size: 18px; font-weight: 600; line-height: 1.4; }
+.door p { margin: 2px 0 0; font-size: 14px; color: var(--muted); }
+.door > div { min-width: 0; }
+.soon {
+  font-size: 12px; font-weight: 500;
+  padding: 3px 10px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted);
+  white-space: nowrap;
+}
+
+.how { display: grid; gap: 8px; }
+.how h2 { margin: 0; font-size: 15px; font-weight: 600; }
+.how ul { margin: 0; padding-left: 1.1em; color: var(--muted); display: grid; gap: 4px; }
+.how li::marker { color: var(--accent); }
+
+footer {
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+  font-size: 13px; color: var(--muted);
+}
+@media (max-width: 420px) {
+  .door { grid-template-columns: 40px 1fr; padding: 16px; }
+  .door .ico { width: 40px; height: 40px; }
+  .soon { grid-column: 2; justify-self: start; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">대학생 멘토링 · 진로 노트</div>
+    <h1>하남드리머즈 진로 멘토링</h1>
+    <p class="lede">궁금한 분야와 학과, 직업을 하나씩 모아 두고 천천히 둘러보는 곳이에요. 정답을 정하는 곳이 아니라, 넓게 알아보는 곳이에요.</p>
+  </header>
+
+  <nav class="doors" aria-label="둘러보기">
+    <div class="door">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg></span>
+      <div><h2>관심 분야</h2><p>언어, 경영, 사회과학, 인문, 교육 등 분야별로 둘러보기</p></div>
+      <span class="soon">준비 중</span>
+    </div>
+    <div class="door">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9 12 4l9 5-9 5z"/><path d="M7 11.2V16c1.5 1.3 3.2 2 5 2s3.5-.7 5-2v-4.8"/></svg></span>
+      <div><h2>학과</h2><p>대학에서 실제로 배우는 과목과 졸업 후 진출 분야</p></div>
+      <span class="soon">준비 중</span>
+    </div>
+    <div class="door">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/><path d="M3 13h18"/></svg></span>
+      <div><h2>직업</h2><p>하는 일, 필요한 능력, 준비 과정, 미래 전망</p></div>
+      <span class="soon">준비 중</span>
+    </div>
+  </nav>
+
+  <section class="how" aria-labelledby="h-how">
+    <h2 id="h-how">이렇게 써 보세요</h2>
+    <ul>
+      <li>쉬는 시간에 하나씩, 5~10분이면 충분해요.</li>
+      <li>끌리는 것도, 별로인 것도 모두 탐색 결과예요.</li>
+      <li>휴대폰 홈 화면에 추가해 두면 앱처럼 바로 열려요.</li>
+    </ul>
+  </section>
+
+  <footer>하남드리머즈 대학생 멘토링 · 진로 탐색 노트</footer>
+</div>
+</body>
+</html>
