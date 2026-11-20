@@ -138,13 +138,14 @@
       "title": "경제학",
       "fields": ["economics"],
       "summary": "개인·기업의 선택(미시)과 나라 전체의 경제 흐름(거시)을 이론과 데이터로 분석하는 학과",
-      "courses": ["미시경제학Ⅰ·Ⅱ", "거시경제학Ⅰ·Ⅱ", "계량경제학", "게임이론 및 응용", "미시경제학연습·거시경제학연습"],
-      "careers": ["은행·증권사 등 금융기관", "제조업체", "공무원·전문직", "대학·연구기관"],
-      "points": ["미시경제학Ⅰ과 거시경제학Ⅰ을 전공필수로 두고, 계량경제학·게임이론은 이론 쪽 심화 과목으로 묶는 학교가 있다", "진로에 따라 기업가·금융혁신가·정책전문가·연구자 트랙으로 과목을 묶어 안내한 학교가 있다 (트랙 구성은 해마다 바뀔 수 있다)"],
+      "courses": ["미시경제학", "거시경제학", "계량경제학"],
+      "careers": ["은행·보험·증권 등 금융기관", "한국은행·금융감독원 등 금융공기업", "공무원(재정경제 직렬)", "대기업·외국계 기업·무역회사", "대학원 진학 후 연구기관·학계"],
+      "points": ["미시경제학·거시경제학 중심의 커리큘럼을 국내에서 처음 도입했다고 소개하는 학과가 있다", "졸업생이 은행·증권·보험 등 금융 분야로 많이 진출한다고 소개한다", "대학원에서는 미시·거시·계량경제학이 필수 과목이다"],
       "lookFor": "물가 기사 하나에서 '미시' 이야기와 '거시' 이야기를 하나씩 찾을 수 있을까?",
       "sources": [
-        { "label": "한림대 경제학과 전공역량트랙", "url": "https://econo.hallym.ac.kr/econo/2762/subview.do" },
-        { "label": "한림대 경제학과 진로", "url": "https://econo.hallym.ac.kr/econo/2767/subview.do" }
+        { "label": "서강대 경제대학 학부", "url": "https://econ.sogang.ac.kr/econ/econ03_4.html" },
+        { "label": "서강대 경제대학 서강학파", "url": "https://econ.sogang.ac.kr/econ/econ01_4.html" },
+        { "label": "서강대 경제대학원", "url": "https://econ.sogang.ac.kr/econ/econ09__1_2.html" }
       ],
       "related": ["c-08", "m-intltrade", "m-business"],
       "tags": ["경제학과", "금융"]
@@ -155,13 +156,14 @@
       "title": "행정학",
       "fields": ["social"],
       "summary": "정부와 공공기관이 정책을 만들고 집행하는 방식, 조직 운영을 배우는 학과",
-      "courses": ["행정학원론", "정책학", "조직이론"],
+      "courses": ["행정학개론", "정책학개론", "조직론"],
       "careers": ["5급·7급·9급 공무원", "공기업·정부투자기관", "국제기구·NGO", "연구직·민간기업", "대학원 진학"],
-      "points": ["행정학원론, 정책학, 조직이론을 전공필수로 지정한 학교가 있다", "공무원 외에 검찰·교정·소방·국회사무처 시험 준비도 진로로 소개된다", "세부전공 이수로 사회복지사 2급 자격을 딸 수 있다고 안내하는 학교도 있다"],
+      "points": ["행정학개론·정책학개론·조직론을 필수 과목으로 두는 학교가 있다", "기초과목을 먼저 듣고 각론으로 넘어가며, 공무원·공직처럼 진출 분야별 이수 방법을 안내하는 학교도 있다", "공무원 외에 검찰·교정·소방·국회사무처 시험 준비도 진로로 소개된다"],
       "lookFor": "우리 동네에서 최근 바뀐 정책 하나는 누가, 왜 만들었을까?",
       "sources": [
         { "label": "명지대 공공인재학부 행정학전공", "url": "https://www.mju.ac.kr/mjukr/581/subview.do" },
-        { "label": "고려대 행정학과 졸업요구조건", "url": "https://hoan.korea.ac.kr/_res/hoan/doc/졸업요구조건_행정학과.pdf" }
+        { "label": "국민대 행정학과 교과과정안내", "url": "https://social.kookmin.ac.kr/site/faculty/faculty_administration/administration_curriculum.htm" },
+        { "label": "동국대 행정학전공 진출 분야별 이수 방법", "url": "https://pa.dongguk.edu/page/252" }
       ],
       "related": ["c-09", "m-politics", "m-socialwelfare"],
       "tags": ["행정학과", "공무원", "정책"]
@@ -172,13 +174,15 @@
       "title": "정치외교학",
       "fields": ["social"],
       "summary": "국내 정치와 국제 관계, 정치사상을 배우고 외교·언론·국제기구 등으로 진출하는 학과",
-      "courses": ["국제정치론", "비교정치개설", "한국정치론", "서양근대정치사상", "국제기구론"],
+      "courses": ["국제정치론", "비교정치론", "한국정치론", "근대정치사상", "국제기구론", "현대한국정치실습"],
       "careers": ["언론·방송", "외교·행정 공직", "국제기구·국제NGO", "공기업·일반기업", "대학원 진학(연구자)"],
-      "points": ["정치학 전공이 방송·신문 등 언론계로 진출하기 쉽다고 소개하는 학교가 있다", "국제구호개발 NGO의 해외 지부에서 일하는 졸업생 사례가 있다", "국제정치론·비교정치개설·한국정치론·서양근대정치사상 중 2과목을 전공필수로 고르게 하는 학교가 있다"],
+      "points": ["교과과정을 정치사상, 비교정치/정치과정, 국제정치, 한국정치, 정치현실분석 5개 분야로 나누는 학교가 있다", "정치학 전공이 방송·신문 등 언론계로 진출하기 쉽다고 소개하는 학교가 있다", "국제구호개발 NGO의 해외 지부에서 일하는 졸업생 사례가 있다"],
       "lookFor": "국제기구나 국제 NGO에서는 외국어를 어떤 일에 쓸까?",
       "sources": [
         { "label": "명지대 공공인재학부 정치외교학전공", "url": "https://www.mju.ac.kr/mjukr/591/subview.do" },
-        { "label": "고려대 정치외교학과 안내", "url": "https://hoan.korea.ac.kr/_res/hoan/doc/정치외교학과.pdf" },
+        { "label": "국민대 정치외교학과 전공소개", "url": "https://polisci.kookmin.ac.kr/polisci/etc/introduction-of-major.do" },
+        { "label": "국민대 정치외교학과 교과과정", "url": "https://polisci.kookmin.ac.kr/polisci/etc/process.do" },
+        { "label": "서강대 정치외교학 학부", "url": "https://scc.sogang.ac.kr/politics/politics06_2.html" },
         { "label": "명지대 정치외교학과 졸업생 NGO 활동 기사", "url": "https://mju.ac.kr/bbs/mjukr/167/78196/artclView.do" }
       ],
       "related": ["m-publicadmin", "m-media", "m-sociology"],
@@ -190,14 +194,16 @@
       "title": "사회학",
       "fields": ["social"],
       "summary": "사회 현상을 조사와 통계로 분석하고, 조사기관·언론·기업 기획 부서 등으로 진출하는 학과",
-      "courses": ["사회조사방법론", "사회통계와 데이터분석"],
-      "careers": ["시장·여론조사 전문가", "소비자트렌드 분석가", "빅데이터 전문가", "언론·광고·방송", "공공기관", "교직이수를 통한 교육계"],
-      "points": ["사회통계 지식과 과학적인 조사·분석 능력을 핵심 역량으로 꼽는다", "사회조사분석사 자격이 조사기관·리서치 기업 입사에 도움이 된다고 안내하는 학교가 있다"],
+      "courses": ["사회학방법론", "사회조사방법론", "사회조사실습", "사회통계학"],
+      "careers": ["정부 부처 통계조사", "국책·민간 연구소 사회조사", "리서치 기관 여론조사", "마케팅·빅데이터 분석", "공공기관·언론사·기업"],
+      "points": ["데이터 분석 중심의 '소셜데이터사이언스' 트랙을 두고 사회조사방법론·사회통계학을 필수로 하는 학교가 있다", "사회조사방법론 수업에서 소규모 조사를 직접 설계하고 통계 처리와 보고서 작성까지 해 보는 학교가 있다", "여론조사기관 조사전문가로 가는 길에 사회조사분석사 국가자격을 안내한다", "조사 분야는 석사 이상 학위를 요구하는 경우가 많다고 소개한다"],
       "lookFor": "여론조사 기사 하나에서 '몇 명에게, 어떻게 물었는지'를 찾을 수 있을까?",
       "sources": [
-        { "label": "아주대 사회학과 졸업후진로", "url": "https://www.ajou.ac.kr/soci/intro/career.do" },
-        { "label": "아주대 사회학과 교과목안내", "url": "https://www.ajou.ac.kr/soci/under/subjects.do" },
-        { "label": "부산대 사회학과 진로", "url": "https://soc.pusan.ac.kr/soc/12424/subview.do" }
+        { "label": "서강대 사회학 특징 및 진로", "url": "https://sociology.sogang.ac.kr/sociology/sociology01_2.html" },
+        { "label": "서강대 소셜데이터사이언스 트랙", "url": "https://sociology.sogang.ac.kr/sociology/sociology03_2_1.html" },
+        { "label": "국민대 사회학과 전공내용", "url": "https://kmusoc.kookmin.ac.kr/kmusoc/undergraduate-studies/major-content.do" },
+        { "label": "동국대 사회학전공 졸업 후 진로", "url": "https://sociology.dongguk.edu/page/293" },
+        { "label": "한양대 사회학과 졸업 후 진로", "url": "https://socio.hanyang.ac.kr/-51" }
       ],
       "related": ["c-10", "m-psychology", "m-media", "m-politics"],
       "tags": ["사회학과", "데이터", "여론조사"]
@@ -208,14 +214,16 @@
       "title": "심리학",
       "fields": ["social"],
       "summary": "사람의 마음과 행동을 실험·조사로 연구하고, 상담·임상·인지 등 분야로 나뉘는 학과",
-      "courses": ["2학년: 상담심리학, 인지심리학, 심리통계학, 발달심리학, 이상심리학", "3학년: 임상심리학, 심리평가, 심리학연구방법론, 인지신경과학"],
-      "careers": ["상담심리(개인·가족·집단 상담)", "임상심리(병원·상담센터·정신건강센터)", "인지심리(기업·연구소, 인공지능 관련 업무)"],
-      "points": ["임상심리사, 상담심리사, 청소년상담사 같은 관련 자격이 있다", "임상·상담 분야 전문가가 되려면 대학원에 진학하는 경우가 많다"],
+      "courses": ["일반심리학", "발달심리학", "성격심리학", "심리통계", "인지심리학", "사회심리학", "이상심리학"],
+      "careers": ["임상심리(병원 임상심리실·정신건강 클리닉)", "상담심리(청소년상담복지센터·대학 학생상담소·기업 상담실)", "인지·인간공학(제품 테스트·UX·게임 개발)", "산업 및 조직(기업 인사·교육, 리서치, 마케팅)"],
+      "points": ["일반심리학을 전공필수로 하고, 발달·성격·심리통계·인지·사회·이상심리학 중 2과목 이상을 필수로 고르게 하는 학교가 있다", "임상심리 쪽은 석사 학위를 받고 인정 기관에서 수련을 마쳐야 자격을 딸 수 있다", "교직을 이수하면 전문상담교사 2급 자격을 받을 수 있다고 안내하는 학교도 있다"],
       "lookFor": "상담심리와 인지심리는 같은 '마음'을 어떻게 다르게 볼까?",
       "sources": [
-        { "label": "영남대 심리학과 졸업후진로", "url": "https://www.yu.ac.kr/psy/intro/career.do" },
-        { "label": "영남대 심리학과 교육과정", "url": "https://www.yu.ac.kr/psy/edu/curriculum.do" },
-        { "label": "영남대 심리학과 자격증소개", "url": "https://www.yu.ac.kr/psy/intro/certificates.do" }
+        { "label": "서강대 심리학 커리큘럼", "url": "https://psychology.sogang.ac.kr/psychology/D_821_4452.html" },
+        { "label": "서강대 심리학 학과소개", "url": "https://psychology.sogang.ac.kr/psychology/D_821_4445.html" },
+        { "label": "중앙대 심리학과", "url": "https://psyche.cau.ac.kr/info/sub01.asp" },
+        { "label": "서강대 상담심리 졸업 후 진로", "url": "https://cpeic.sogang.ac.kr/cpeic/eic01_4.html" },
+        { "label": "성신여대 심리학과 졸업 후 진로", "url": "https://www.sungshin.ac.kr/psy/11411/subview.do" }
       ],
       "related": ["c-10", "v-catholic-psych", "m-sociology"],
       "tags": ["심리학과", "상담", "임상"]
@@ -226,14 +234,14 @@
       "title": "미디어커뮤니케이션 (신문방송)",
       "fields": ["social"],
       "summary": "언론·방송·광고·PR 등 미디어로 소통하는 원리와 콘텐츠 제작을 배우는 학과",
-      "courses": ["영상커뮤니케이션", "미디어와 PR", "광고기획", "영상기획의실제", "영상제작실습", "미디어의법제와정책"],
-      "careers": ["기자·편집기자", "방송연출가·방송작가·아나운서", "광고·홍보 전문가", "영상콘텐츠 제작", "데이터분석·빅데이터 전문가"],
-      "points": ["커뮤니케이션, 방송·영상, 광고·PR, 인터넷과 빅데이터 네 분야를 가르치는 학교가 있다", "진출 분야로 언론·방송, 광고, PR, 인터넷 관련 회사, 조사기관을 든다"],
+      "courses": ["저널리즘개론", "PR의 이해", "PR글쓰기와 실무", "광고 카피라이팅과 전략적 글쓰기", "영상문화와 사회", "미디어 콘텐츠 포맷론"],
+      "careers": ["신문·잡지 기자·편집", "방송 PD·작가·아나운서·편성", "광고 기획·매체전략·카피라이터", "PR 전문가", "정부·공공기관, 기업 마케팅 부서"],
+      "points": ["이론 과목을 미디어, 저널리즘, 전략커뮤니케이션(광고/PR), 커뮤니케이션학 4개 파트로 나누는 학교가 있다", "소셜미디어 마케팅, 디지털 콘텐츠 기획, 데이터 분석 같은 새 직종도 진로로 소개된다"],
       "lookFor": "같은 소식을 기사, 영상, 광고로 전하면 무엇이 달라질까?",
       "sources": [
-        { "label": "영남대 미디어커뮤니케이션학과 졸업 후 진로", "url": "https://www.yu.ac.kr/mnc/intro/career.do" },
-        { "label": "영남대 미디어커뮤니케이션학과 개설과목", "url": "https://www.yu.ac.kr/mnc/intro/curriculum.do" },
-        { "label": "영남대 미디어커뮤니케이션학과 소개", "url": "https://www.yu.ac.kr/main/academics/mnc.do" }
+        { "label": "서강대 신문방송학과 전공선택과목", "url": "https://smas.sogang.ac.kr/smas/smas2_01.html" },
+        { "label": "한양대 미디어커뮤니케이션학과 학부", "url": "https://comm.hanyang.ac.kr/admissionbd" },
+        { "label": "성균관대 미디어커뮤니케이션학과 소개", "url": "https://mediacomm.skku.edu/mediacomm/intro/greetings.do" }
       ],
       "related": ["v-cau-ad", "c-06", "m-sociology", "m-politics"],
       "tags": ["신방과", "언론", "광고", "PR"]
@@ -244,14 +252,14 @@
       "title": "사회복지학",
       "fields": ["social"],
       "summary": "도움이 필요한 사람과 지역사회를 지원하는 방법을 배우고, 사회복지사 자격과 현장실습으로 이어지는 학과",
-      "courses": ["사회복지학개론", "인간행동과사회환경", "사회복지실천론", "사회복지실천기술론", "지역사회복지론", "프로그램개발과평가", "사례관리론", "사회복지현장실습(3·4학년)"],
-      "careers": ["사회복지기관(사례관리, 지역조직화, 자원개발)", "학교·병원·군부대 등 2차 현장", "NGO", "공단·공기업", "공무원"],
-      "points": ["사회복지사 2급은 정해진 교과목(필수 10과목, 선택 7과목)을 이수해 받는다", "현장실습을 3학년과 4학년에 나눠 하는 학교가 있다"],
+      "courses": ["사회복지현장의 이해", "사례관리론", "사례관리현장실습", "사회복지현장실습 (3학년 2학기)", "사회복지현장심화실습 (4학년 1학기)", "사회복지인턴실습"],
+      "careers": ["사회복지전담공무원", "국민건강보험공단·근로복지공단 등 공공기관", "종합사회복지관·청소년 시설", "학교·정신보건·의료·교정 사회복지", "복지재단·국제기구·NGO", "대학원 진학 후 교수·연구원"],
+      "points": ["현장실습을 6학점 이수하도록 권하고, 3학년 2학기 현장실습 → 4학년 1학기 심화실습 순서로 하는 학교가 있다", "실습 전에 여러 기관을 방문해 자신에게 맞는 분야를 찾는 과목이 있다", "학부에서 사회복지사 2급을 받을 수 있고, 1급은 국가시험에 합격해야 한다"],
       "lookFor": "다문화가족지원센터 같은 복지 현장에서 외국어는 어떻게 쓰일까?",
       "sources": [
-        { "label": "전주대 사회복지학과 커리어로드맵", "url": "https://www.jj.ac.kr/welfare/career/roadmap.do" },
-        { "label": "전주대 사회복지현장실습 실습생 모집 안내", "url": "https://free.jj.ac.kr/welfare/community/notice.do?mode=view&articleNo=503711" },
-        { "label": "전주대 평생교육원 사회복지학 과정", "url": "https://conedu.jj.ac.kr/conedu/academic-credit/course_welfare.do" }
+        { "label": "삼육대 사회복지학과 교과목 소개", "url": "https://www.syu.ac.kr/sw/curriculum/%EA%B5%90%EA%B3%BC%EB%AA%A9-%EC%86%8C%EA%B0%9C/" },
+        { "label": "숭실대 사회복지학부", "url": "https://ssu.ac.kr/%EA%B5%90%EC%9C%A1-%C2%B7-%EC%97%B0%EA%B5%AC/%EB%8C%80%ED%95%99%EC%86%8C%EA%B0%9C/%EC%82%AC%ED%9A%8C%EA%B3%BC%ED%95%99%EB%8C%80%ED%95%99/%EC%82%AC%ED%9A%8C%EB%B3%B5%EC%A7%80%ED%95%99%EB%B6%80/" },
+        { "label": "숭실대 사회복지 자격증안내", "url": "https://sabok.ssu.ac.kr/%ED%95%99%EC%82%AC%EC%A0%95%EB%B3%B4/%EC%9E%90%EA%B2%A9%EC%A6%9D%EC%95%88%EB%82%B4-2/" }
       ],
       "related": ["j-multicultural", "m-publicadmin", "m-psychology"],
       "tags": ["사회복지사", "국가자격", "복지"]
