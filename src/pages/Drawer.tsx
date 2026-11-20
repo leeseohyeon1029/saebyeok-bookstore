@@ -1,6 +1,7 @@
 import { useSearchParams } from 'react-router-dom'
 import { DrawerView, type DrawerTab } from '../components/DrawerView'
 import { PageTitle } from '../components/ui'
+import { CONTACT_EMAIL } from '../lib/site'
 import { useUser } from '../lib/UserContext'
 
 const TABS: DrawerTab[] = ['scraps', 'notes', 'jobs', 'plan', 'history']
@@ -31,6 +32,7 @@ export default function Drawer() {
         >
           이 기기에서 나가기
         </button>
+        <p className="mt-3 select-text text-[11px] text-[#b5afa4]">문의 {CONTACT_EMAIL}</p>
       </div>
     </>
   )
