@@ -1,0 +1,755 @@
+{
+  "meta": {
+    "version": "1.0",
+    "updatedAt": "2026-11-21",
+    "note": "모든 항목은 sources가 1개 이상 있어야 한다. 사례의 일부 문장은 출처 내용을 쉽게 풀어 쓴 것이다."
+  },
+  "fields": [
+    { "id": "language", "name": "언어" },
+    { "id": "chinese", "name": "중국어" },
+    { "id": "business", "name": "경영" },
+    { "id": "economics", "name": "경제" },
+    { "id": "social", "name": "사회과학" },
+    { "id": "humanities", "name": "인문" },
+    { "id": "education", "name": "사범" }
+  ],
+  "items": [
+    {
+      "id": "m-chinese",
+      "type": "major",
+      "title": "중어중문·중국어중국학",
+      "fields": ["chinese", "language"],
+      "summary": "중국어와 중국의 문화·시장을 함께 배우고, 무역·마케팅·통번역 등으로 진출하는 학과",
+      "courses": ["중국어 회화·작문", "실용 중국어 글쓰기", "비즈니스 중국어", "중국 시장과 마케팅"],
+      "careers": ["해외영업·마케팅", "중국어 통번역", "항공서비스"],
+      "points": ["진출 분야별로 HSK, 물류관리사 같은 관련 자격을 함께 안내하는 학교도 있다", "같은 '중국 관련 학과'라도 언어·문학 중심인지, 지역·통상 중심인지 학교마다 다르다"],
+      "lookFor": "내가 끌리는 건 중국어 자체일까, 중국의 문화·시장일까?",
+      "sources": [{ "label": "전주대 중국어중국학과 학과탐색", "url": "https://iphak.jj.ac.kr:443/iphak/exploration/human/chinese.do" }],
+      "related": ["m-bizchinese", "m-interp", "j-trade", "j-sales", "j-translator", "v-mju-chinese", "v-ku-chinese", "c-04", "c-05"],
+      "tags": ["중문과", "중국학", "HSK"]
+    },
+    {
+      "id": "m-bizchinese",
+      "type": "major",
+      "title": "비즈니스중국어",
+      "fields": ["chinese", "business"],
+      "summary": "비즈니스 상황에서 쓰는 중국어와 중국 시장 마케팅을 배우는 학과",
+      "courses": ["비즈니스 중국어 1~4 (발음·회화·문서 작성·무역 마케팅 회화)", "중국 SNS 생태계와 마케팅 전략", "중국어 디지털 리터러시", "AI 중국어 통번역 프로젝트 실습"],
+      "careers": ["무역·해외영업", "마케팅", "통번역"],
+      "points": ["4학년에 'AI 중국어 통번역 프로젝트 실습' 같은 AI 활용 과목이 있다"],
+      "lookFor": "중어중문과 교육과정과 비교하면 무엇이 다를까?",
+      "sources": [{ "label": "서경대 비즈니스중국어학과 교육과정", "url": "https://bc.skuniv.ac.kr/bc_courses_of_major" }],
+      "related": ["m-chinese", "j-trade", "j-sales", "c-04"],
+      "tags": ["비즈니스", "무역"]
+    },
+    {
+      "id": "m-english",
+      "type": "major",
+      "title": "영어영문",
+      "fields": ["language"],
+      "summary": "영어 실력 기초 위에 영문학·영어학·영어교육·통번역을 배우는 학과",
+      "courses": ["1~2학년: 영어회화, 영작문, 영문법, 전공영어독해, 영미문화", "3~4학년: 문학, 어학, 영어교육, 통번역 분야 선택"],
+      "careers": ["영어 교사", "대학원 진학(영문학·영어학)", "관공서·기업", "창작 활동"],
+      "points": ["'영어를 배우는 곳'이라기보다 영어로 된 문학과 언어를 연구하는 비중이 크다"],
+      "lookFor": "영문과는 영어를 배우는 곳일까, 문학을 배우는 곳일까?",
+      "sources": [{ "label": "아주대 영어영문학과", "url": "https://www.ajou.ac.kr/human/major/ell.do" }],
+      "related": ["m-interp", "j-translator", "j-teacher", "v-sogang-english", "c-01"],
+      "tags": ["영문과"]
+    },
+    {
+      "id": "m-interp",
+      "type": "major",
+      "title": "통번역 (대학원 중심)",
+      "fields": ["language"],
+      "summary": "전문 통역사·번역가를 기르는 과정. 주로 통번역대학원에서 집중적으로 훈련한다",
+      "courses": ["동시통역·순차통역", "분야별 번역 (산업경제·정치법률·과학기술·미디어·문학)", "모의국제회의", "CAT(컴퓨터 보조) 번역"],
+      "careers": ["국제회의 통역사", "전문 번역가"],
+      "points": ["학부에서 어문 계열을 전공한 뒤 통번역대학원에 가는 길이 흔하다", "대학원마다 통역 중심인지 번역 중심인지 과목 비중이 다르다"],
+      "lookFor": "통역과 번역 중 나에게 더 맞는 쪽은?",
+      "sources": [{ "label": "국내 통번역 교육 교육내용의 현황과 의미 (손지봉, 번역학연구)", "url": "https://journal.kci.go.kr/kats/archive/articlePdf?artiId=ART002516696" }],
+      "related": ["j-interpreter", "j-translator", "j-posteditor", "v-hufs-gsit", "c-01"],
+      "tags": ["통번역대학원"]
+    },
+    {
+      "id": "m-koredu",
+      "type": "major",
+      "title": "한국어교육",
+      "fields": ["language", "education"],
+      "summary": "외국인에게 한국어를 가르치는 방법을 배우는 전공",
+      "courses": ["외국어로서의 한국어학개론", "한국어문법교육론 (문법 교안 작성)", "한국어교육실습 (참관·모의수업)"],
+      "careers": ["국내외 한국어 교원"],
+      "points": ["문법교육론 수업에서 초급·중급·고급 중 하나를 골라 교안을 쓰고 발표·수정해 제출한다"],
+      "lookFor": "당연하게 쓰는 우리말을 외국인에게 설명하는 일이 재미있을까?",
+      "sources": [
+        { "label": "경희대 외국어로서의 한국어문법교육론 강의계획서", "url": "https://com.khu.ac.kr/resources/user/download/ice/한국어학/외국어로서의한국어문법교육론.pdf" },
+        { "label": "명지대 한국어교육의체계와이해 강의계획서", "url": "https://www.mju.ac.kr/syllabus/mjukr/3/202210001HAA014605600/view.do" }
+      ],
+      "related": ["j-koreanteacher", "m-korean", "c-03"],
+      "tags": ["한국어교원"]
+    },
+    {
+      "id": "m-korean",
+      "type": "major",
+      "title": "국어국문",
+      "fields": ["language", "humanities"],
+      "summary": "우리말의 구조(문법)와 한국 문학을 연구하는 학과",
+      "courses": ["국어문법론 (형태소와 단어, 합성어·파생어, 품사, 문장)", "국문학", "한국어교육 관련 과목"],
+      "careers": ["국어 교사", "출판·편집", "한국어 교원", "연구자"],
+      "points": ["신조어가 만들어지는 원리도 '단어 형성' 단원에서 다루는 주제다"],
+      "lookFor": "국문과의 '언어' 과목과 '문학' 과목은 어떻게 다를까?",
+      "sources": [{ "label": "KOCW 국어문법론 강의계획서", "url": "https://www.kocw.net:444/home/common/contents/syllabus/1076045_20161102103611482.pdf" }],
+      "related": ["m-koredu", "v-ku-korean", "c-02"],
+      "tags": ["국문과"]
+    },
+    {
+      "id": "m-japanese",
+      "type": "major",
+      "title": "일어일문·일본어",
+      "fields": ["language"],
+      "summary": "일본어와 일본 문학·문화를 배우고 통번역·관광·언론 등으로 진출하는 학과",
+      "courses": ["일본어", "일본 문학·문화", "통·번역"],
+      "careers": ["통·번역", "관광 통역", "면세점·호텔", "언론"],
+      "points": ["중국어와 마찬가지로 관광·쇼핑 분야에서 통역 수요가 있다는 진로 자료가 있다"],
+      "lookFor": "중문과와 비슷한 점, 다른 점은?",
+      "sources": [{ "label": "상명대 일본어 통역·번역 진로 자료", "url": "https://ai.smu.ac.kr/_res/smnihongo/etc/career01.pdf" }],
+      "related": ["m-chinese", "v-kyonggi-japanese", "j-guide"],
+      "tags": ["일문과"]
+    },
+
+    {
+      "id": "j-translator",
+      "type": "job",
+      "title": "번역가",
+      "group": "옮기기",
+      "fields": ["language"],
+      "summary": "외국어를 국문으로, 국문을 외국어로 옮기는 사람",
+      "points": ["회사에 소속되거나 프리랜서로 일한다", "문학 번역은 한국문학번역원 같은 기관의 의뢰로 하기도 한다", "기계번역이 늘어도 문학처럼 문화를 잇는 번역은 사람이 해야 한다는 현직자 의견이 있다"],
+      "path": "필수 교육 과정은 없지만 통번역대학원이나 번역 교육기관을 거치는 경우가 많다. 외국어뿐 아니라 한국어 구사력도 중요하다",
+      "lookFor": "번역가는 외국어 실력 말고 어떤 능력이 필요할까?",
+      "sources": [
+        { "label": "문화체육관광부·커리어넷 번역가 인터뷰", "url": "https://www.mcst.go.kr/usr/child/info/futurePlanView.jsp?pSeq=24" },
+        { "label": "직업정보: 번역가", "url": "https://invione.com/jobs/info/K000000824" }
+      ],
+      "related": ["j-posteditor", "m-interp", "m-english", "c-01"],
+      "tags": ["번역"]
+    },
+    {
+      "id": "j-posteditor",
+      "type": "job",
+      "title": "기계번역 포스트에디터",
+      "group": "옮기기",
+      "fields": ["language"],
+      "summary": "기계 번역 결과를 사람이 고쳐 완성하는 사람",
+      "points": ["제품 설명서, 사용 설명서, 블로그, 제품 라벨, 연차 보고서 등을 다룬다", "기업이 콘텐츠를 여러 언어로 내면서 수요가 늘었다"],
+      "path": "번역 전공 학부 수업과 통번역 대학원 과정에서 포스트에디팅을 가르친다",
+      "lookFor": "AI가 번역을 해도 사람이 고쳐야 하는 부분은 어디일까?",
+      "sources": [
+        { "label": "Kent State University 번역 석사과정 안내", "url": "https://www.kent.edu/node/998668" },
+        { "label": "학부 번역전공자의 기계번역 포스트에디팅 (이상빈, 2017)", "url": "https://www.earticle.net/Article/A315006" }
+      ],
+      "related": ["j-translator", "c-01", "v-hufs-gsit"],
+      "tags": ["AI", "포스트에디팅", "미래 직업"]
+    },
+    {
+      "id": "j-interpreter",
+      "type": "job",
+      "title": "통역사",
+      "group": "말로 전달",
+      "fields": ["language"],
+      "summary": "회의·협상·행사에서 말을 실시간으로 옮기는 사람",
+      "points": ["APEC 정상회의 같은 국제회의 통역, IT 등 분야별 전문 통역으로 활동한다"],
+      "path": "통번역대학원에서 동시·순차 통역을 훈련하는 경우가 많다",
+      "lookFor": "통역사에게 필요한 순발력은 어떻게 기를까?",
+      "sources": [{ "label": "이화여대 통역번역대학원 한영통역전공 교수진 경력", "url": "https://gsti.ewha.ac.kr/gsti/department/korean-and-english.do" }],
+      "related": ["m-interp", "j-translator", "v-hufs-gsit"],
+      "tags": ["통역"]
+    },
+    {
+      "id": "j-guide",
+      "type": "job",
+      "title": "관광통역안내사",
+      "group": "말로 전달",
+      "fields": ["language", "chinese"],
+      "summary": "외국인 관광객에게 외국어로 한국의 역사·문화와 관광지를 안내하는 사람",
+      "points": ["외국인 관광객을 대상으로 하는 여행업자는 이 자격을 가진 사람을 관광 안내에 종사하게 해야 한다", "여행사 단체 안내부터 소수 개인 안내까지 업무 범위가 다양하다"],
+      "path": "문화체육관광부 국가자격. 외국어는 공인 외국어 성적을 내고, 필기와 면접을 본다",
+      "lookFor": "한국을 외국인에게 소개하려면 외국어 말고 무엇을 알아야 할까?",
+      "sources": [{ "label": "한국경제 생글생글: 관광통역안내사", "url": "https://sgsg.hankyung.com/article/2015071046691" }],
+      "related": ["m-chinese", "m-japanese", "c-04"],
+      "tags": ["국가자격", "관광"]
+    },
+    {
+      "id": "j-koreanteacher",
+      "type": "job",
+      "title": "한국어 교원",
+      "group": "가르치기",
+      "fields": ["language", "education"],
+      "summary": "외국인과 재외동포에게 한국어를 가르치는 사람",
+      "points": ["국어기본법에 따라 1급, 2급, 3급 자격이 있다"],
+      "path": "2급은 대학에서 한국어교육을 전공(복수전공)하거나 관련 과목을 정해진 학점만큼 이수한 뒤 국립국어원 자격 심사를 받는다",
+      "lookFor": "한국어 교원은 국내와 해외 중 어디서 일할 수 있을까?",
+      "sources": [
+        { "label": "국립국어원 한국어교원 자격", "url": "https://kteacher.korean.go.kr" },
+        { "label": "전북일보: 한국어교원 자격심사", "url": "https://www.jjan.kr/articleAmp/20060717193849" }
+      ],
+      "related": ["m-koredu", "c-03"],
+      "tags": ["국가자격", "교육"]
+    },
+    {
+      "id": "j-teacher",
+      "type": "job",
+      "title": "외국어·국어 교사",
+      "group": "가르치기",
+      "fields": ["language", "education"],
+      "summary": "중·고등학교에서 언어 과목을 가르치는 사람",
+      "points": ["어문 계열 학과의 대표적인 진로 중 하나다"],
+      "path": "사범대학을 졸업하거나 교직을 이수한 뒤 임용시험을 본다",
+      "lookFor": "사범대와 일반 학과의 교직 이수는 무엇이 다를까?",
+      "sources": [{ "label": "아주대 영어영문학과 졸업 후 진로", "url": "https://www.ajou.ac.kr/human/major/ell.do" }],
+      "related": ["m-english", "v-hanyang-edu", "c-15"],
+      "tags": ["교사"]
+    },
+    {
+      "id": "j-trade",
+      "type": "job",
+      "title": "무역사무원 (중국어)",
+      "group": "연결·설득",
+      "fields": ["chinese", "business"],
+      "summary": "영어·중국어 상거래 문서를 쓰고 수출입 업무를 처리하는 사람",
+      "points": ["채용공고에서 영어·중국어 상거래 문서 작성과 회화 능력을 요구한다", "중문과·영문과·무역학과 전공자를 찾는 공고가 있다"],
+      "path": "어문 계열이나 무역학 전공 후 무역회사·제조사 등에 취업",
+      "lookFor": "무역사무원이 하루에 쓰는 문서는 어떤 것들일까?",
+      "sources": [{ "label": "인천시 일자리정보: 영어·중국어 무역사무원", "url": "https://www.incheon.go.kr/wp/WC020201/2113590" }],
+      "related": ["m-chinese", "m-bizchinese", "c-05", "j-sales"],
+      "tags": ["무역", "중국어"]
+    },
+    {
+      "id": "j-sales",
+      "type": "job",
+      "title": "해외영업·해외마케터",
+      "group": "연결·설득",
+      "fields": ["business", "chinese", "language"],
+      "summary": "해외 바이어와 거래를 성사시키거나 해외 고객을 위한 콘텐츠를 기획하는 사람",
+      "points": ["무역 직무에서는 견적서를 써서 해외 바이어에게 보내는 일이 기본 업무다", "중국 관련 학과의 대표 진출 분야로 기업 해외영업·마케팅이 꼽힌다"],
+      "path": "중국학·통상, 경영, 어문 계열 등 다양한 전공에서 진출",
+      "lookFor": "해외영업에서 언어 실력은 얼마나 중요할까?",
+      "sources": [
+        { "label": "코멘토 무역 직무 체험 과정 과제", "url": "https://comento.kr/edu/learn/%EC%9C%A0%ED%86%B5%EB%AC%BC%EB%A5%98%EB%AC%B4%EC%97%AD/%EB%AC%B4%EC%97%AD-G1775" },
+        { "label": "전주대 중국어중국학과 진출분야", "url": "https://iphak.jj.ac.kr:443/iphak/exploration/human/chinese.do" }
+      ],
+      "related": ["j-trade", "c-05", "c-06", "m-chinese"],
+      "tags": ["영업", "마케팅"]
+    },
+    {
+      "id": "j-multicultural",
+      "type": "job",
+      "title": "다문화 통역지원사",
+      "group": "연결·설득",
+      "fields": ["language", "social"],
+      "summary": "다문화가족지원센터에서 결혼이민자의 의사소통을 통번역으로 돕는 사람",
+      "points": ["병원·학교·행정기관·경찰서 이용, 임신·출산·양육 상담 등을 통번역으로 지원한다", "중국어, 베트남어, 영어 등 여러 언어로 서비스한다"],
+      "path": "주로 한국어 실력을 인정받은 결혼이민자가 맡는다",
+      "lookFor": "언어가 사람을 돕는 일에는 또 어떤 것이 있을까?",
+      "sources": [{ "label": "직업정보: 통역지원사", "url": "https://www.invione.com/jobs/info/K000004149" }],
+      "related": ["j-interpreter", "m-koredu"],
+      "tags": ["처음 듣는 직업", "복지"]
+    },
+
+    {
+      "id": "c-01",
+      "type": "case",
+      "title": "번역 전공 학부생의 기계번역 포스트에디팅 프로젝트",
+      "fields": ["language"],
+      "summary": "영한 번역 전공 3학년들이 구글 번역 결과를 다듬어 의료 정보 앱에 쓰는 실제 프로젝트를 했다",
+      "points": ["미국 의료기관의 일반인용 의료 텍스트를 다국어 진단 앱에 쓰기 위해 다듬었다", "학부 포스트에디팅 수업에서 무엇을 가르쳐야 하는지 연구로 이어졌다"],
+      "lookFor": "AI 번역에서 사람이 꼭 고쳐야 하는 실수는 어떤 종류일까?",
+      "sources": [{ "label": "이상빈(2017), 통역과 번역", "url": "https://www.earticle.net/Article/A315006" }],
+      "related": ["j-posteditor", "j-translator", "m-interp", "m-english"],
+      "tags": ["대학 과제", "AI"]
+    },
+    {
+      "id": "c-02",
+      "type": "case",
+      "title": "국어문법론에서 배우는 '단어가 만들어지는 원리'",
+      "fields": ["language", "humanities"],
+      "summary": "대학 국어문법론 강의는 형태소와 단어, 합성어·파생어, 다양한 단어 형성 방법을 주차별로 다룬다",
+      "points": ["한국어교육 전공의 한국어학개론에서는 형태소 분석을 수시 과제로 낸다", "'혼밥', '먹방' 같은 신조어도 이 원리로 분석할 수 있다"],
+      "lookFor": "요즘 신조어 하나를 골라, 어떤 원리로 만들어졌는지 설명할 수 있을까?",
+      "sources": [
+        { "label": "KOCW 국어문법론 강의계획서", "url": "https://www.kocw.net:444/home/common/contents/syllabus/1076045_20161102103611482.pdf" },
+        { "label": "경희대 외국어로서의 한국어학개론 강의계획서", "url": "https://ice.khu.ac.kr/resources/user/download/ice/한국어학/외국어로서의한국어학개론.pdf" }
+      ],
+      "related": ["m-korean", "m-koredu"],
+      "tags": ["대학 수업", "언어학"]
+    },
+    {
+      "id": "c-03",
+      "type": "case",
+      "title": "한국어문법교육론의 과제: 문법 교안 쓰기",
+      "fields": ["language", "education"],
+      "summary": "한국어 교사가 되는 과정에서는 문법 하나를 외국인에게 가르치는 교안을 쓰고, 발표하고, 고쳐서 낸다",
+      "points": ["초급·중급·고급 중 하나를 골라 교안을 쓴다", "다른 대학 국어국문학과 과목도 마지막 3주를 문법 범주별 교안 작성과 발표로 운영한다"],
+      "lookFor": "'-아요/-어요'를 외국인에게 설명한다면 어떤 규칙부터 말할까?",
+      "sources": [
+        { "label": "경희대 한국어문법교육론 강의계획서", "url": "https://com.khu.ac.kr/resources/user/download/ice/한국어학/외국어로서의한국어문법교육론.pdf" },
+        { "label": "명지대 한국어교육의체계와이해 강의계획서", "url": "https://www.mju.ac.kr/syllabus/mjukr/3/202210001HAA014605600/view.do" }
+      ],
+      "related": ["m-koredu", "j-koreanteacher"],
+      "tags": ["대학 과제", "교육"]
+    },
+    {
+      "id": "c-04",
+      "type": "case",
+      "title": "중국어로 상거래 문서를 쓰는 일",
+      "fields": ["chinese", "business"],
+      "summary": "중국어 무역사무원 채용공고는 중국어 상거래 문서 작성을 요구하고, 비즈니스중국어 전공에는 '문서 작성' 과목이 있다",
+      "points": ["채용공고: 영어·중국어 상거래 문서 작성 및 회화, 중문과·영문과·무역학과 전공자 희망", "대학 교육과정: 비즈니스 중국어 3 '실용 회화와 문서 작성', 중국 SNS 마케팅 전략"],
+      "lookFor": "같은 상품도 중국 고객에게 소개할 때는 무엇을 바꿔야 할까?",
+      "sources": [
+        { "label": "인천시 일자리정보", "url": "https://www.incheon.go.kr/wp/WC020201/2113590" },
+        { "label": "서경대 비즈니스중국어학과 교육과정", "url": "https://bc.skuniv.ac.kr/bc_courses_of_major" }
+      ],
+      "related": ["j-trade", "m-bizchinese", "m-chinese"],
+      "tags": ["직무", "중국어"]
+    },
+    {
+      "id": "c-05",
+      "type": "case",
+      "title": "무역 실무의 첫 과제: 견적서 쓰기",
+      "fields": ["chinese", "business"],
+      "summary": "무역실무 과목은 오퍼와 수락, 주문과 계약을 배우고, 현직자 직무 체험 과정의 첫 과제는 견적서를 써서 바이어에게 보내는 것이다",
+      "points": ["견적서에는 품명, 수량, 단가, 합계, 납기, 결제 조건, 유효기간이 들어간다", "무역계약서 작성, 수출입 절차도 함께 배운다"],
+      "lookFor": "바이어는 견적서에서 어떤 칸을 가장 먼저 볼까?",
+      "sources": [
+        { "label": "상지대 무역실무 교과목 해설", "url": "https://www.sangji.ac.kr/thumbnail/pdf/CMS_201812270234018400.pdf" },
+        { "label": "코멘토 무역 직무 체험 과정", "url": "https://comento.kr/edu/learn/%EC%9C%A0%ED%86%B5%EB%AC%BC%EB%A5%98%EB%AC%B4%EC%97%AD/%EB%AC%B4%EC%97%AD-G1775" }
+      ],
+      "related": ["j-trade", "j-sales", "m-chinese"],
+      "tags": ["대학 수업", "직무", "무역"]
+    },
+    {
+      "id": "c-06",
+      "type": "case",
+      "title": "카드뉴스 기획과 국문·영문 문구 작성",
+      "fields": ["business", "language"],
+      "summary": "한 도시 마케팅 기관이 SNS 카드뉴스 기획과 국문·영문 문구 작성을 외부 전문가에게 맡긴 실제 의뢰가 있다",
+      "points": ["마케팅원론은 STP, 촉진 전략, 통합 마케팅 커뮤니케이션을 배우고 마케팅 계획을 세운다", "언어 능력이 마케팅 실무에서 그대로 쓰이는 예다"],
+      "lookFor": "마케팅에서 '누구에게 말할지' 정하는 게 왜 먼저일까?",
+      "sources": [
+        { "label": "명지대 마케팅원론 강의계획서", "url": "https://www.mju.ac.kr/CrossEditor/binary/files/000011/마케팅원론.pdf" },
+        { "label": "크몽 기업 의뢰: SNS 카드뉴스 기획", "url": "https://kmong.com/enterprise/requests/199591" }
+      ],
+      "related": ["j-sales", "v-cau-ad"],
+      "tags": ["직무", "마케팅"]
+    },
+    {
+      "id": "c-07",
+      "type": "case",
+      "title": "회계원리: 거래를 장부에 기록하기",
+      "fields": ["business"],
+      "summary": "회계원리 수업은 회계거래의 분개와 전기, 장부 기록을 쉬운 예제로 배우고 과제를 낸다",
+      "points": ["세무회계과 전산회계실무에서는 전표 작성과 장부·재무제표 작성을 과제로 한다"],
+      "lookFor": "가게의 하루 거래를 기록하면 무엇을 알 수 있을까?",
+      "sources": [
+        { "label": "경희대 회계원리 강의계획서", "url": "https://ice.khu.ac.kr/resources/user/download/ice/경영학/회계원리.pdf" },
+        { "label": "KOCW 전산회계실무 수업계획서", "url": "https://www.kocw.net:444/home/common/contents/syllabus/1430497_20220502163658488.pdf" }
+      ],
+      "related": ["v-yonsei-business"],
+      "tags": ["대학 수업", "회계"]
+    },
+    {
+      "id": "c-08",
+      "type": "case",
+      "title": "경제학원론 과제: 신문기사 요약·질문·논평",
+      "fields": ["economics"],
+      "summary": "한 대학 경제학원론 수업은 경제 관련 신문기사를 스크랩해 요약, 질문, 논평을 학기 중 5회 내는 것이 과제다",
+      "points": ["경제 원리를 실제 뉴스에 적용해 보는 연습이다"],
+      "lookFor": "최근 물가 기사 하나를 공급과 수요로 나눠 설명할 수 있을까?",
+      "sources": [{ "label": "KOCW 경제학원론1 강의계획서", "url": "https://www.kocw.net:444/home/common/contents/syllabus/1162774_2016110811325278.pdf" }],
+      "related": [],
+      "tags": ["대학 과제", "경제"]
+    },
+    {
+      "id": "c-09",
+      "type": "case",
+      "title": "정책학원론: 정책을 사례로 분석하기",
+      "fields": ["social"],
+      "summary": "행정학과 정책학원론은 정책형성·집행·평가·변동을 사례분석과 함께 배우고 보고서를 낸다",
+      "points": ["문제 → 대안 → 결정 → 평가 순서로 정책을 들여다본다"],
+      "lookFor": "우리 학교나 동네의 규칙 하나를 이 순서로 분석해 보면?",
+      "sources": [{ "label": "명지대 정책학원론 강의계획서", "url": "https://www.mju.ac.kr/syllabus/mjukr/13/202120001HBA012215727/view.do" }],
+      "related": [],
+      "tags": ["대학 수업", "행정"]
+    },
+    {
+      "id": "c-10",
+      "type": "case",
+      "title": "심리학 연구방법론: 마음을 측정하는 법",
+      "fields": ["social"],
+      "summary": "심리학 연구방법론은 측정의 개념과 조사연구를 배우고, 조사분석법 수업에서는 실제 연구를 진행해 보고서를 쓴다",
+      "points": ["좋은 설문 문항은 한 번에 하나만 묻고, 답을 유도하지 않는다"],
+      "lookFor": "'시험 스트레스'를 숫자로 측정하려면 어떤 질문을 해야 할까?",
+      "sources": [
+        { "label": "KOCW 심리학 연구방법론", "url": "https://www.kocw.net:444/home/common/contents/syllabus/1437105_20220718105225234.pdf" },
+        { "label": "KOCW 조사분석법", "url": "https://www.kocw.net:444/home/common/contents/syllabus/1265059_2018030616913344.pdf" }
+      ],
+      "related": ["v-catholic-psych"],
+      "tags": ["대학 수업", "심리"]
+    },
+    {
+      "id": "c-11",
+      "type": "case",
+      "title": "민사사례연구: 사례에서 쟁점 찾기",
+      "fields": ["social"],
+      "summary": "법학 교육의 민사사례연구는 주요 사례를 학습하고 사례형 답안 작성을 연습한다",
+      "points": ["사례형 답안은 쟁점 → 규칙 → 적용 → 결론 순서로 쓰는 것이 기본이다"],
+      "lookFor": "생활 속 다툼 하나에서 '무엇이 문제인지' 한 문장으로 쓸 수 있을까?",
+      "sources": [{ "label": "KOCW 민사사례연구 교수계획표", "url": "https://www.kocw.net:444/home/common/contents/syllabus/1456834_20230223132130425.pdf" }],
+      "related": ["v-kookmin-law"],
+      "tags": ["대학 수업", "법학"]
+    },
+    {
+      "id": "c-12",
+      "type": "case",
+      "title": "자료조직론: 한국십진분류법으로 책 분류하기",
+      "fields": ["social"],
+      "summary": "문헌정보학 전공 필수인 자료조직론(분류론)에서 한국십진분류법(KDC)으로 분류 연습을 한다",
+      "points": ["KDC 대분류: 000 총류, 100 철학, 200 종교, 300 사회과학, 400 자연과학, 500 기술과학, 600 예술, 700 언어, 800 문학, 900 역사"],
+      "lookFor": "도서관에서 중국어 교재는 몇 번대 책장에 있을까?",
+      "sources": [{ "label": "자료조직론 입문서 (위키독스)", "url": "https://wikidocs.net/382012" }],
+      "related": [],
+      "tags": ["대학 수업", "문헌정보"]
+    },
+    {
+      "id": "c-13",
+      "type": "case",
+      "title": "사학의 기본: 사료비판",
+      "fields": ["humanities"],
+      "summary": "사학과 교육과정은 역사학의 기본인 '사료비판 교육'을 핵심 요소로 둔다",
+      "points": ["같은 사건도 기록한 사람에 따라 다르게 쓰일 수 있어, 누가 왜 썼는지 따져 본다", "사학과 졸업생은 학예사, 학예연구직 공무원 등으로 진출한다"],
+      "lookFor": "같은 사건을 다르게 쓴 두 기사를 보면 무엇이 다를까?",
+      "sources": [
+        { "label": "아주대 사학과 학과소개", "url": "https://ajou.ac.kr/_resources/faculty/etc/retirement-track-20200909-13.pdf" },
+        { "label": "명지대 사학과 졸업 후 진로", "url": "https://mju.ac.kr/mjukr/541/subview.do" }
+      ],
+      "related": [],
+      "tags": ["대학 수업", "역사"]
+    },
+    {
+      "id": "c-14",
+      "type": "case",
+      "title": "윤리학 수업의 딜레마 토론",
+      "fields": ["humanities"],
+      "summary": "대학 윤리학 수업은 딜레마 사례를 두고 찬반 근거를 나눠 토론하고, 사례 기반 윤리 과목에서는 이론을 사례에 적용해 해결책을 쓴다",
+      "points": ["해외 대학 사례다. 국내 강의계획서는 아직 찾지 못했다"],
+      "lookFor": "AI로 과제를 쓴 친구를 알게 됐다면, 찬반 근거는 각각 무엇일까?",
+      "sources": [
+        { "label": "Texas A&M Corpus Christi 윤리학 수업 기록", "url": "https://philosophy.tamucc.edu/node/420" },
+        { "label": "Loyola University Chicago 과목 소개", "url": "https://molo.luc.edu/app/catalog/showCourse/LUCHI/009042/UGRD/2013-06-15" }
+      ],
+      "related": ["v-ku-philosophy"],
+      "tags": ["대학 수업", "철학"]
+    },
+    {
+      "id": "c-15",
+      "type": "case",
+      "title": "교육공학 과제: 지도안 쓰기와 마이크로티칭",
+      "fields": ["education"],
+      "summary": "교직 과목 교육방법및교육공학은 수업지도안 설계를 다루고, 서울대 교육공학 수업은 교수학습과정안 개발과 마이크로티칭을 과제로 낸다",
+      "points": ["마이크로티칭은 짧은 시간 동안 실제처럼 해보는 모의 수업이다"],
+      "lookFor": "친구에게 5분 동안 무언가를 가르친다면 어떻게 시작할까?",
+      "sources": [
+        { "label": "KOCW 교육방법및교육공학 강의계획서", "url": "https://www.kocw.net:444/home/common/contents/syllabus/1153671_20161215102921357.pdf" },
+        { "label": "서울대 교육공학 강의계획서", "url": "https://iled.snu.ac.kr/wp-content/uploads/kboard_attached/19/201511/201511240335391062522.pdf" }
+      ],
+      "related": ["j-teacher", "v-hanyang-edu"],
+      "tags": ["대학 과제", "교육"]
+    },
+
+    {
+      "id": "v-mju-chinese",
+      "type": "video",
+      "title": "전과자 ep.73 명지대 중어중문학과",
+      "source": "ootb STUDIO 전과자",
+      "fields": ["chinese"],
+      "summary": "중국어 기초 회화부터 틱톡·웹소설 등 중국 문화 수업까지 담았다",
+      "points": [],
+      "lookFor": "중문과 수업에서 언어 수업과 문화 수업은 각각 어떤 비중일까?",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=8zAJAnYTwGc" }],
+      "related": ["m-chinese", "v-ku-chinese"],
+      "tags": ["전과자"]
+    },
+    {
+      "id": "v-ku-chinese",
+      "type": "video",
+      "title": "고려대 중어중문학과 홍보영상",
+      "source": "고려대 중어중문학과",
+      "fields": ["chinese"],
+      "summary": "'중문과는 중국어만 하는 과?', '졸업하고 뭐 해요?' 같은 편견에 재학생이 답한다",
+      "points": [],
+      "lookFor": "중문과 졸업생은 어떤 분야로 갈까?",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=S2KPvPsHdug" }],
+      "related": ["m-chinese", "v-mju-chinese"],
+      "tags": ["학과 홍보"]
+    },
+    {
+      "id": "v-sogang-english",
+      "type": "video",
+      "title": "전과자 ep.83 서강대 영문학부",
+      "source": "ootb STUDIO 전과자",
+      "fields": ["language"],
+      "summary": "해리포터 원서로 하는 영어권 아동청소년문학 수업, 영미어문과 미국문화 전공의 차이를 보여준다",
+      "points": [],
+      "lookFor": "영문과는 '영어'를 배우는 곳일까, '문학'을 배우는 곳일까?",
+      "sources": [
+        { "label": "YouTube", "url": "https://www.youtube.com/watch?v=mLUoNk_GSZM" },
+        { "label": "bnt뉴스 기사", "url": "https://v.daum.net/v/20250411171602401" }
+      ],
+      "related": ["m-english"],
+      "tags": ["전과자"]
+    },
+    {
+      "id": "v-ku-korean",
+      "type": "video",
+      "title": "전과자 ep.92 고려대 국어국문학과",
+      "source": "ootb STUDIO 전과자",
+      "fields": ["language", "humanities"],
+      "summary": "우리말을 연구하는 학과의 수업 체험",
+      "points": [],
+      "lookFor": "국문과의 '언어' 과목과 '문학' 과목은 어떻게 다를까?",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=1lkqI7S8bmw" }],
+      "related": ["m-korean"],
+      "tags": ["전과자"]
+    },
+    {
+      "id": "v-kyonggi-japanese",
+      "type": "video",
+      "title": "전과자 ep.104 경기대 일어일문학과",
+      "source": "ootb STUDIO 전과자",
+      "fields": ["language"],
+      "summary": "중국어 말고 다른 외국어 학과와 비교해 볼 수 있다",
+      "points": [],
+      "lookFor": "중문과와 비슷한 점, 다른 점 하나씩",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=G_4IWtVSvcM" }],
+      "related": ["m-japanese"],
+      "tags": ["전과자"]
+    },
+    {
+      "id": "v-hufs-arabic",
+      "type": "video",
+      "title": "전과자 ep.67 한국외대 아랍어과",
+      "source": "ootb STUDIO 전과자",
+      "fields": ["language"],
+      "summary": "처음 보는 언어를 전공하는 학과",
+      "points": [],
+      "lookFor": "낯선 언어를 전공하면 어떤 진로가 있을까?",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=Gzs1qNmTcYY" }],
+      "related": [],
+      "tags": ["전과자", "처음 보는 분야"]
+    },
+    {
+      "id": "v-hufs-gsit",
+      "type": "video",
+      "title": "2026 한국외대 통번역대학원 홍보영상",
+      "source": "한국외대 통번역대학원",
+      "fields": ["language"],
+      "summary": "AI 시대에 사람 통번역가가 맡는 역할을 설명한다",
+      "points": [],
+      "lookFor": "AI가 있어도 사람이 맡는 일은 무엇일까?",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=Pcutnl2sYbM" }],
+      "related": ["m-interp", "j-interpreter", "j-posteditor"],
+      "tags": ["학과 홍보", "AI"]
+    },
+    {
+      "id": "v-hanyang-edu",
+      "type": "video",
+      "title": "전과자 ep.89 한양대 사범대학 (국어교육과 등)",
+      "source": "ootb STUDIO 전과자",
+      "fields": ["education", "language"],
+      "summary": "가르치는 일로 가는 길",
+      "points": [],
+      "lookFor": "사범대와 일반 학과는 무엇이 다를까?",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=dwsL-knwfQM" }],
+      "related": ["j-teacher", "c-15"],
+      "tags": ["전과자"]
+    },
+    {
+      "id": "v-yonsei-business",
+      "type": "video",
+      "title": "전과자 ep.16 연세대 경영학과",
+      "source": "ootb STUDIO 전과자",
+      "fields": ["business"],
+      "summary": "다른 문과 계열: 경영",
+      "points": [],
+      "lookFor": "경영학과에서 언어 능력이 쓰이는 장면이 있었나?",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=P18SutoOFPE" }],
+      "related": ["c-07", "j-sales"],
+      "tags": ["전과자"]
+    },
+    {
+      "id": "v-catholic-psych",
+      "type": "video",
+      "title": "전과자 ep.5 가톨릭대 심리학과",
+      "source": "ootb STUDIO 전과자",
+      "fields": ["social"],
+      "summary": "다른 문과 계열: 사회과학",
+      "points": [],
+      "lookFor": "심리학은 사람의 마음을 어떻게 연구할까?",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=ReC7dNqWEBU" }],
+      "related": ["c-10"],
+      "tags": ["전과자"]
+    },
+    {
+      "id": "v-kookmin-law",
+      "type": "video",
+      "title": "전과자 ep.41 국민대 법학과",
+      "source": "ootb STUDIO 전과자",
+      "fields": ["social"],
+      "summary": "다른 문과 계열: 법",
+      "points": [],
+      "lookFor": "법학과 수업에서 '사례'는 어떻게 다룰까?",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=5SxYmDQgaJ4" }],
+      "related": ["c-11"],
+      "tags": ["전과자"]
+    },
+    {
+      "id": "v-cau-ad",
+      "type": "video",
+      "title": "전과자 ep.107 중앙대 광고홍보학부",
+      "source": "ootb STUDIO 전과자",
+      "fields": ["social", "business"],
+      "summary": "다른 문과 계열: 글과 말을 쓰는 홍보",
+      "points": [],
+      "lookFor": "광고홍보에서 말과 글은 어떤 역할을 할까?",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=zThWibNqa1g" }],
+      "related": ["c-06"],
+      "tags": ["전과자"]
+    },
+    {
+      "id": "v-skku-hanmun",
+      "type": "video",
+      "title": "전과자 ep.99 성균관대 한문학과",
+      "source": "ootb STUDIO 전과자",
+      "fields": ["humanities", "language"],
+      "summary": "한자로 된 옛 글을 읽고 연구하는 학과",
+      "points": [],
+      "lookFor": "한문학과에서 배우는 한자는 중국어와 어떻게 다를까?",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=HVCrOkLvy_A" }],
+      "related": ["m-chinese"],
+      "tags": ["전과자"]
+    },
+    {
+      "id": "v-hufs-thai",
+      "type": "video",
+      "title": "전과자 ep.2 한국외대 태국어과",
+      "source": "ootb STUDIO 전과자",
+      "fields": ["language"],
+      "summary": "특수외국어를 전공하는 학과",
+      "points": [],
+      "lookFor": "많이 배우지 않는 언어를 전공하면 좋은 점은?",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=lF0uDY7E-7U" }],
+      "related": [],
+      "tags": ["전과자", "처음 보는 분야"]
+    },
+    {
+      "id": "v-ku-philosophy",
+      "type": "video",
+      "title": "전과자 ep.35 고려대 철학과",
+      "source": "ootb STUDIO 전과자",
+      "fields": ["humanities"],
+      "summary": "다른 문과 계열: 인문",
+      "points": [],
+      "lookFor": "철학과에서는 어떤 질문을 붙잡고 공부할까?",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=FUbmX408lu4" }],
+      "related": ["c-14"],
+      "tags": ["전과자"]
+    },
+    {
+      "id": "v-snue",
+      "type": "video",
+      "title": "전과자 ep.56 서울교대 초등교육과",
+      "source": "ootb STUDIO 전과자",
+      "fields": ["education"],
+      "summary": "초등 교사를 기르는 교육대학",
+      "points": [],
+      "lookFor": "초등 교사와 중·고등 교사가 되는 길은 어떻게 다를까?",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=RZm_rp37HCo" }],
+      "related": ["j-teacher"],
+      "tags": ["전과자"]
+    },
+    {
+      "id": "v-jeju-tourism",
+      "type": "video",
+      "title": "전과자 ep.76 제주대 관광경영학과",
+      "source": "ootb STUDIO 전과자",
+      "fields": ["business"],
+      "summary": "관광 산업을 경영의 눈으로 배우는 학과",
+      "points": [],
+      "lookFor": "관광 분야에서 외국어는 어떤 일에 쓰일까?",
+      "sources": [{ "label": "YouTube", "url": "https://www.youtube.com/watch?v=Q4eJeJHVL_M" }],
+      "related": ["j-guide"],
+      "tags": ["전과자"]
+    },
+
+    {
+      "id": "r-careernet",
+      "type": "resource",
+      "title": "커리어넷 직업정보·학과정보",
+      "fields": ["language", "chinese", "business", "economics", "social", "humanities", "education"],
+      "summary": "교육부·한국직업능력연구원의 진로정보망. 직업이 하는 일, 되는 길, 관련 학과를 찾을 때 기준 출처로 쓴다",
+      "points": ["관심 직업 정리 카드의 '출처' 칸에 가장 먼저 넣기 좋은 자료"],
+      "lookFor": "내 관심 직업의 '하는 일'을 커리어넷에서 찾아 한 줄로 옮겨 보기",
+      "sources": [{ "label": "커리어넷", "url": "https://www.career.go.kr" }],
+      "related": [],
+      "tags": ["진로정보"]
+    },
+    {
+      "id": "r-kocw",
+      "type": "resource",
+      "title": "KOCW 대학공개강의",
+      "fields": ["language", "chinese", "business", "economics", "social", "humanities", "education"],
+      "summary": "국내외 대학이 공개한 강의 동영상과 강의계획서를 무료로 볼 수 있다. 실제 대학 수업이 궁금할 때 좋다",
+      "points": ["이 아카이브의 대학 수업 사례 중 상당수가 KOCW 강의계획서에서 나왔다"],
+      "lookFor": "관심 학과 이름으로 검색해 강의계획서 하나를 열어 보기",
+      "sources": [{ "label": "KOCW", "url": "https://www.kocw.net" }],
+      "related": [],
+      "tags": ["대학 강의"]
+    },
+    {
+      "id": "r-kmooc",
+      "type": "resource",
+      "title": "K-MOOC 한국형 온라인 공개강좌",
+      "fields": ["language", "chinese", "business", "economics", "social", "humanities", "education"],
+      "summary": "대학 강좌를 온라인으로 들을 수 있는 공개강좌 플랫폼",
+      "points": [],
+      "lookFor": "관심 분야 입문 강좌 1개의 1주차를 들어 보기",
+      "sources": [{ "label": "K-MOOC", "url": "https://www.kmooc.kr" }],
+      "related": [],
+      "tags": ["대학 강의"]
+    },
+    {
+      "id": "r-kteacher",
+      "type": "resource",
+      "title": "국립국어원 한국어교원 자격 안내",
+      "fields": ["language", "education"],
+      "summary": "한국어 교원 자격의 종류와 취득 방법을 확인하는 공식 사이트",
+      "points": [],
+      "lookFor": "한국어 교원 2급을 받으려면 대학에서 무엇을 이수해야 할까?",
+      "sources": [{ "label": "국립국어원 한국어교원", "url": "https://kteacher.korean.go.kr" }],
+      "related": ["j-koreanteacher", "m-koredu"],
+      "tags": ["자격"]
+    },
+    {
+      "id": "r-jeongwaja",
+      "type": "resource",
+      "title": "전과자 채널 (ootb STUDIO)",
+      "fields": ["language", "chinese", "business", "economics", "social", "humanities", "education"],
+      "summary": "진행자가 여러 대학 학과의 수업을 직접 듣는 웹예능. 학과 분위기를 편하게 볼 수 있다",
+      "points": ["학교 홍보 성격도 있으니 '한 학교의 모습'으로 보고, 사실 정보는 학과 공식 자료로 다시 확인한다"],
+      "lookFor": "아카이브에 없는 학과 편 중 궁금한 것 하나 찾아보기",
+      "sources": [{ "label": "YouTube 채널", "url": "https://www.youtube.com/@ootbstudio" }],
+      "related": [],
+      "tags": ["영상"]
+    }
+  ]
+}
