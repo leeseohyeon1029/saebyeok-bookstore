@@ -1,6 +1,7 @@
 import { NavLink, Outlet } from 'react-router-dom'
 import type { ReactNode } from 'react'
 import { usingFirebase } from '../lib/store'
+import Notice from './Notice'
 import { useUser } from '../lib/UserContext'
 
 const tabs: { to: string; label: string; icon: ReactNode }[] = [
@@ -49,6 +50,7 @@ export default function Layout() {
   const { saveError } = useUser()
   return (
     <Shell>
+      <Notice />
       {!usingFirebase && (
         <p className="-mx-4 bg-warm-soft px-4 py-2 text-center text-xs text-warm">
           개발 모드: 기록이 이 기기에만 저장돼요

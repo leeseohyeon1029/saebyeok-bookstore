@@ -1,6 +1,7 @@
 import { useState, type FormEvent } from 'react'
 import { Link, Navigate, useNavigate } from 'react-router-dom'
 import { Shell } from '../components/Layout'
+import Notice from '../components/Notice'
 import { btnGhost, btnPrimary, inputCls } from '../components/ui'
 import { ITEMS } from '../lib/content'
 import { backend, userIdOf, validateNickname, validatePin, type Profile } from '../lib/store'
@@ -57,6 +58,7 @@ export default function Entry() {
 
   return (
     <Shell>
+      <Notice />
       <div className="flex min-h-dvh flex-col">
         <div className="flex flex-1 flex-col justify-center py-10">
           <div className="mb-8">
