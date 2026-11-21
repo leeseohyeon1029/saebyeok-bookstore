@@ -7,8 +7,8 @@ export const CONTACT_EMAIL = 'shyeon296@naver.com'
  */
 export const NOTICE: { id: string; title: string; text: string; linkLabel: string; url: string } | null = {
   id: 'survey-2026-11',
-  title: '설문 응답 부탁드려요',
-  text: '멘토링을 마치며 짧은 설문을 준비했어요. 잠깐 시간 내서 응답해 주세요!',
+  title: '마지막 멘토링 설문',
+  text: '마지막 멘토링 설문이 필요하다고 해서 전달합니다! 아래 버튼 눌러서 응답해 주세요.',
   linkLabel: '설문 열기',
   url: 'https://naver.me/Fc6eb1ok',
 }
